@@ -1,0 +1,26 @@
+id: dgi_3d_islandora_model
+label: 'DGI 3D Islandora Model'
+migration_group: islandora
+migration_tags:
+  - dgi_taxonomies
+source:
+  plugin: embedded_data
+  track_changes: true
+  data_rows:
+    - name: '3D Object'
+      vid: 'islandora_models'
+      description: 'A 3D model that could represent anything from a born digital art project to a digital rendering of a 3D scan of a physical object.'
+      external_uri: https://schema.org/3DModel
+  ids:
+    - external_uri
+process:
+  name: name
+  vid: vid
+  description: description
+  field_external_uri:
+    plugin: urlencode
+    source: external_uri
+destination:
+  plugin: 'entity:taxonomy_term'
+migration_dependencies:
+  required: { }
