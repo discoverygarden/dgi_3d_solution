@@ -1,0 +1,9 @@
+{
+  "name": "discoverygarden/dgi_3d_solution",
+  "type": "drupal-module",
+  "license": "GPL-3.0-only",
+  "require": {
+    "drupal/migrate_plus": "^6 || ^5",
+    "islandora/islandora": "^2"
+  }
+}
