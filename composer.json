@@ -3,7 +3,7 @@
   "type": "drupal-module",
   "license": "GPL-3.0-only",
   "require": {
-    "drupal/migrate_plus": "^5",
+    "drupal/migrate_plus": "^6 | | ^5",
     "islandora/islandora": "^2"
   }
 }
