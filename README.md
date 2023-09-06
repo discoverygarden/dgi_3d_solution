@@ -29,7 +29,7 @@ Having problems or solved one? contact
 [discoverygarden](http://support.discoverygarden.ca).
 
 ## Sponsors
-[UNR](https://library.unr.edu/)
+* [UNR](https://library.unr.edu/)
 
 ## Maintainers
 Current maintainers:
