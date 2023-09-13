@@ -28,6 +28,9 @@ The migration can be imported as part of the 'islandora' migration group, or ind
 Having problems or solved one? contact
 [discoverygarden](http://support.discoverygarden.ca).
 
+## Sponsors
+* [UNR](https://library.unr.edu/)
+
 ## Maintainers
 Current maintainers:
 
